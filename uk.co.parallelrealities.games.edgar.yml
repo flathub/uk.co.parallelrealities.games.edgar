@@ -20,7 +20,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/riksweeney/edgar
-        tag: 1.35
+        tag: '1.35'
         commit: 3bfd7a1ba3b6b46414ebf5fad39cc70237f75611
         x-checker-data:
           type: git
