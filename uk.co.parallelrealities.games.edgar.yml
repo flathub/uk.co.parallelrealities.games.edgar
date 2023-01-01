@@ -20,8 +20,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/riksweeney/edgar
-        tag: 1.35
-        commit: 3bfd7a1ba3b6b46414ebf5fad39cc70237f75611
+        tag: '1.36'
+        commit: a98263a5cf9fece03492c5a0f798746d0e381517
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
@@ -29,8 +29,3 @@ modules:
         commands:
           - sed -i -e 's|/usr|${FLATPAK_DEST}|' makefile
           - sed -i -e 's|$(PREFIX)/games/|$(PREFIX)/bin/|' makefile
-      - type: patch
-        path: appdata.patch
-      - type: patch
-        path: icon.patch
-        use-git: true
