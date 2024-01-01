@@ -20,8 +20,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/riksweeney/edgar
-        tag: '1.36'
-        commit: a98263a5cf9fece03492c5a0f798746d0e381517
+        tag: '1.37'
+        commit: 879f0ca3bf7e2fcb73283c6a7f3cb82d4a58922d
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
